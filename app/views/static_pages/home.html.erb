@@ -9,13 +9,7 @@
 		</section>
 		<section class="location">
 			<% loc = request.location %>
-			locality<%= loc.locality %>
-			city<%= loc.city %>
-			country<%= loc.country %>
-			postal_code<%= loc.postal_code %>
-			longitude<%= loc.longitude %>
-			latitude<%= loc.latitude %>
-			full_address<%= loc.full_address %>
+			<%= loc %>
 		</section>
 		<section class="micropost_form">
 			<%= render 'shared/micropost_form' %>
